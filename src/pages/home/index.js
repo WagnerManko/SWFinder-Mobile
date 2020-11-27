@@ -13,11 +13,11 @@ export default function Home() {
             <Text style={style.swfLogo}>SW Finder</Text>
         </View>
         
-        <Categories categoryName='Peoples' />
-
-        <Categories categoryName='Planets' />
-
-        <Categories categoryName='Starships' />
+        <View style={style.viewCategories}>
+            <Categories categoryName='Peoples' />
+            <Categories categoryName='Planets' />
+            <Categories categoryName='Starships' />
+        </View>
 
         <View style={style.viewGitHub}>
             <TouchableOpacity style={style.githubBtn}>

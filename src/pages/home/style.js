@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const style = StyleSheet.create({
     viewLogo: {
+        height: 200,
         alignItems: 'center',
         backgroundColor: '#1c1e22',
     },
@@ -13,10 +14,15 @@ const style = StyleSheet.create({
             marginBottom: 20,
         },
 
+    viewCategories: {
+        flex: 1,
+    },
+
     viewGitHub: {
+        height: 160,
         backgroundColor: '#1c1e22',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         paddingBottom: 8,
     },
         githubBtn: {

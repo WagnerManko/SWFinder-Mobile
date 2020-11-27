@@ -8,7 +8,8 @@ import {
   Sarpanch_500Medium,
   Sarpanch_600SemiBold,
 } from '@expo-google-fonts/sarpanch';
-import Starjedi from './src/assets/fonts/starjedi/Starjedi.ttf'
+import Starjedi from './src/assets/fonts/starjedi/Starjedi.ttf';
+import Starjhol from './src/assets/fonts/starjedi/Starjhol.ttf';
 
 import globalStyle from './globalStyle';
 
@@ -21,6 +22,7 @@ export default function App() {
     Sarpanch_500Medium,
     Sarpanch_600SemiBold,
     Starjedi,
+    Starjhol,
   });
 
   if(!fontsLoaded) {

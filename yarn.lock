@@ -1013,6 +1013,11 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
+"@expo-google-fonts/sarpanch@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/sarpanch/-/sarpanch-0.1.0.tgz#5760ba55d22a1a07b951ff4668aae627bf033245"
+  integrity sha512-CCUnm5Y1YktKVDk0gz8ovB9/5/NbGRmhTzK2BvKEtdysWvUQfvKJn3VqQKgCfN03ZTyowteurRHXFae8QlpqrQ==
+
 "@expo/configure-splash-screen@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@expo/configure-splash-screen/-/configure-splash-screen-0.2.0.tgz#84f9f71363259f16fd0073636a198c750a3cdd7c"

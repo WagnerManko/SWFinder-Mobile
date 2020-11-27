@@ -3,10 +3,14 @@ import { StyleSheet } from 'react-native';
 const style = StyleSheet.create({
     viewLogo: {
         alignItems: 'center',
-        backgroundColor: '#ff0000',
+        backgroundColor: '#1c1e22',
     },
         swfLogo: {
-            fontSize: 24,
+            fontSize: 46,
+            fontFamily: 'Starjedi',
+            color: '#ffe300',
+            marginTop: 20,
+            marginBottom: 20,
         },
 
     viewGitHub: {

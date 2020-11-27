@@ -2,9 +2,9 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { Image, Text, TouchableOpacity, View } from 'react-native';
 
-import peopleIcon from '../../img/people.png';
-import planetIcon from '../../img/planet.png';
-import starshipIcon from '../../img/starship.png';
+import peopleIcon from '../../assets/img/people.png';
+import planetIcon from '../../assets/img/planet.png';
+import starshipIcon from '../../assets/img/starship.png';
 
 import style from './style';
 

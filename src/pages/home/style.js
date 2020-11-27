@@ -2,18 +2,43 @@ import { StyleSheet } from 'react-native';
 
 const style = StyleSheet.create({
     viewLogo: {
+        height: 200,
         alignItems: 'center',
-        backgroundColor: '#ff0000',
+        backgroundColor: '#1c1e22',
     },
         swfLogo: {
-            fontSize: 24,
+            fontSize: 46,
+            fontFamily: 'Starjedi',
+            color: '#ffe300',
+            marginTop: 20,
+            marginBottom: 20,
         },
 
-    viewGitHub: {
-        alignItems: 'center',
-        backgroundColor: '#0000ff',
+    viewCategories: {
+        flex: 1,
     },
-        github: {},
+
+    viewGitHub: {
+        height: 160,
+        backgroundColor: '#1c1e22',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        paddingBottom: 8,
+    },
+        githubBtn: {
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: 40,
+            width: 40,
+            borderWidth: 2,
+            borderColor: '#ffe300',
+            borderRadius: 50,
+            backgroundColor: 'rgba(0,0,0,0)',
+        },
+            github: {
+                fontSize: 20,
+                color: '#ffe300',
+            },
 });
 
 export default style;

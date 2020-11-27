@@ -1,12 +1,10 @@
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import Categories from '../../components/btnCategories'
 
+import { Feather as Icon } from '@expo/vector-icons';
 import style from './style';
-
-import peopleIcon from '../../img/people.png';
-import planetIcon from '../../img/planet.png';
-import starshipIcon from '../../img/starship.png';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Home() {
   return (
@@ -15,14 +13,16 @@ export default function Home() {
             <Text style={style.swfLogo}>SWFinder</Text>
         </View>
         
-        <Categories categoryName='Peoples' />
-
-        <Categories categoryName='Planets' />
-
-        <Categories categoryName='Starships' />
+        <View style={style.viewCategories}>
+            <Categories categoryName='Peoples' />
+            <Categories categoryName='Planets' />
+            <Categories categoryName='Starships' />
+        </View>
 
         <View style={style.viewGitHub}>
-            <Text style={style.github}>SWFinder</Text>
+            <TouchableOpacity style={style.githubBtn}>
+              <Icon style={style.github} name='github' />
+            </TouchableOpacity>
         </View>
     </>
   );

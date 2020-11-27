@@ -24,8 +24,9 @@ const style = StyleSheet.create({
     },
     text: {
         fontSize: 18,
-        fontWeight: 'bold',
+        fontFamily: 'Sarpanch_600SemiBold',
         color: '#ffe300',
+        textTransform: 'uppercase',
     }
 });
 

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
         <View style={style.viewLogo}>
-            <Text style={style.swfLogo}>SW Finder</Text>
+            <Text style={style.swfLogo}>SWFinder</Text>
         </View>
         
         <View style={style.viewCategories}>

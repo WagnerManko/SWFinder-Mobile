@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View, Image } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Text, Image } from 'react-native';
+import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import api from '../../api/swapi';
 
 import R2D2 from '../../assets/img/r2d2.png';
@@ -21,7 +21,7 @@ export default function Peoples() {
   }, [])
 
   return (
-    <View style={style.viewBody}>
+    <ScrollView style={style.viewBody}>
       {peoples.length == 0 ?
       <Text style={style.loading}>Encontrando Pessoas...</Text> :
       peoples.map(people => (
@@ -30,6 +30,6 @@ export default function Peoples() {
           <Text style={style.namePeople}>{people.name}</Text>
         </TouchableOpacity>
       ))}
-    </View>
+    </ScrollView>
   );
 }

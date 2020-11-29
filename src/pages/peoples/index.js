@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import api from '../../api/swapi';
+
+import R2D2 from '../../assets/img/r2d2.png';
+import style from './style';
 
 export default function Peoples() {
 
@@ -18,12 +21,13 @@ export default function Peoples() {
   }, [])
 
   return (
-    <View>
+    <View style={style.viewBody}>
       {peoples.length == 0 ?
-      <Text>Encontrando Pessoas...</Text> :
+      <Text style={style.loading}>Encontrando Pessoas...</Text> :
       peoples.map(people => (
-        <TouchableOpacity key={people.name}>
-          <Text>{people.name}</Text>
+        <TouchableOpacity style={style.btnPeople} key={people.name}>
+          <Image style={style.avatarPeople} source={R2D2}/>
+          <Text style={style.namePeople}>{people.name}</Text>
         </TouchableOpacity>
       ))}
     </View>

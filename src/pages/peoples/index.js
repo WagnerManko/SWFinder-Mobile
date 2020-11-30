@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Text, Image } from 'react-native';
-import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
-import api from '../../api/swapi';
+import { ScrollView } from 'react-native-gesture-handler';
+
+import swApi from '../../api/swapi';
 
 import Loading from '../../components/loading';
-import R2D2 from '../../assets/img/r2d2.png';
+import Result from '../../components/searchResult';
 import style from './style';
 
 export default function Peoples() {
@@ -13,9 +14,9 @@ export default function Peoples() {
 
   useEffect(() => {
     async function loadPeoples() {
-      const response = await api.get('people')
+      const resPeoples = await swApi.get('people');
 
-      setPeoples(response.data.results);
+      setPeoples(resPeoples.data.results);
     }
 
     loadPeoples();
@@ -26,10 +27,7 @@ export default function Peoples() {
       {peoples.length == 0 ?
       <Loading /> :
       peoples.map(people => (
-        <TouchableOpacity style={style.btnPeople} key={people.name}>
-          <Image style={style.avatarPeople} source={R2D2}/>
-          <Text style={style.namePeople}>{people.name}</Text>
-        </TouchableOpacity>
+      <Result key={people.name} peopleName={people.name}/>
       ))}
     </ScrollView>
   );

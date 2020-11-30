@@ -1,10 +1,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import Categories from '../../components/btnCategories'
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 import { Feather as Icon } from '@expo/vector-icons';
+import Categories from '../../components/btnCategories';
+
 import style from './style';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function Home() {
   return (

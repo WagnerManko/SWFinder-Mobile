@@ -7,7 +7,7 @@ import bb8Body from '../../assets/img/bb8_body.png'
 
 import style from './style';
 
-function Loading () {
+function Loading (props) {
 
     const navigation = useNavigation();
 
@@ -15,7 +15,7 @@ function Loading () {
         <View style={style.viewLoading}>
             <Image style={style.bb8Head} source={bb8Head}/>
             <Image style={style.bb8Body} source={bb8Body}/>
-            <Text style={style.textLoading}>Procurando pessoas...</Text>
+            <Text style={style.textLoading}>Looking for {props.itemName}...</Text>
         </View>
     );
 }

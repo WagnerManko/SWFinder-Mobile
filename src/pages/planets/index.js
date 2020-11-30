@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import api from '../../api/swapi';
+import { ScrollView } from 'react-native-gesture-handler';
+
+import swApi from '../../api/swapi';
+
+import Loading from '../../components/loading';
+import Result from '../../components/searchResult';
+import style from './style';
 
 export default function Planets() {
 
@@ -9,23 +13,21 @@ export default function Planets() {
 
   useEffect(() => {
     async function loadPlanets() {
-      const response = await api.get('planets')
+      const resPlanets = await swApi.get('planets');
 
-      setPlanets(response.data.results);
+      setPlanets(resPlanets.data.results);
     }
 
     loadPlanets();
   }, [])
 
   return (
-    <View>
+    <ScrollView style={style.viewBody}>
       {planets.length == 0 ?
-      <Text>Procurando Planetas...</Text> :
+      <Loading itemName='Planets'/> :
       planets.map(planet => (
-        <TouchableOpacity key={planet.name}>
-          <Text>{planet.name}</Text>
-        </TouchableOpacity>
+      <Result key={planet.name} itemMap={planet.name}/>
       ))}
-    </View>
+    </ScrollView>
   );
 }

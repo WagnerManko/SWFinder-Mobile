@@ -1,8 +1,7 @@
-  
 import axios from 'axios';
 
-const api = axios.create({
+const swApi = axios.create({
     baseURL: 'https://swapi.dev/api/'
 });
 
-export default api;
+export default swApi;

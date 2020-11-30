@@ -3,6 +3,7 @@ import { Text, Image } from 'react-native';
 import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import api from '../../api/swapi';
 
+import Loading from '../../components/loading';
 import R2D2 from '../../assets/img/r2d2.png';
 import style from './style';
 
@@ -23,7 +24,7 @@ export default function Peoples() {
   return (
     <ScrollView style={style.viewBody}>
       {peoples.length == 0 ?
-      <Text style={style.loading}>Encontrando Pessoas...</Text> :
+      <Loading /> :
       peoples.map(people => (
         <TouchableOpacity style={style.btnPeople} key={people.name}>
           <Image style={style.avatarPeople} source={R2D2}/>

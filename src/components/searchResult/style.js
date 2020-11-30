@@ -1,20 +1,20 @@
 import { StyleSheet } from 'react-native';
 
 const style = StyleSheet.create({
-    btnPeople: {
+    btnItem: {
         flexDirection: 'row',
         alignItems: 'center',
         marginLeft: 20,
         marginTop: 20,
     },
-        avatarPeople: {
+        avatarItem: {
             height: 80,
             width: 80,
             borderWidth: 1,
             borderColor: '#ffe300',
             borderRadius: 8,
         },
-        namePeople: {
+        nameItem: {
             fontSize: 16,
             fontFamily: 'Sarpanch_600SemiBold',
             color: '#ffe300',

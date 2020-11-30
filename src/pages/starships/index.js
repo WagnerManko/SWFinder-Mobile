@@ -1,31 +1,33 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
-import api from '../../api/swapi';
+import { ScrollView } from 'react-native-gesture-handler';
 
-export default function Starships() {
+import swApi from '../../api/swapi';
 
-  const [starships, setstarships] = useState([]);
+import Loading from '../../components/loading';
+import Result from '../../components/searchResult';
+import style from './style';
+
+export default function Planets() {
+
+  const [starships, setStarships] = useState([]);
 
   useEffect(() => {
-    async function loadstarships() {
-      const response = await api.get('starships')
+    async function loadStarships() {
+      const resStarships = await swApi.get('starships');
 
-      setstarships(response.data.results);
+      setStarships(resStarships.data.results);
     }
 
-    loadstarships();
+    loadStarships();
   }, [])
 
   return (
-    <View>
+    <ScrollView style={style.viewBody}>
       {starships.length == 0 ?
-      <Text>Buscando Aeronaves...</Text> :
+      <Loading itemName='Starships'/> :
       starships.map(starship => (
-        <TouchableOpacity key={starship.name}>
-          <Text>{starship.name}</Text>
-        </TouchableOpacity>
+      <Result key={starship.name} itemMap={starship.name}/>
       ))}
-    </View>
+    </ScrollView>
   );
 }

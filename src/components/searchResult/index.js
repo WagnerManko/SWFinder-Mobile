@@ -9,9 +9,9 @@ function Result (props) {
     const navigation = useNavigation();
 
     return (
-        <TouchableOpacity style={style.btnPeople}>
-          <Image style={style.avatarPeople} source={{uri: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cf/LukeTatooine.jpg/200px-LukeTatooine.jpg'}}/>
-          <Text style={style.namePeople}>{props.peopleName}</Text>
+        <TouchableOpacity style={style.btnItem}>
+          <Image style={style.avatarItem} source={{uri: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cf/LukeTatooine.jpg/200px-LukeTatooine.jpg'}}/>
+          <Text style={style.nameItem}>{props.itemMap}</Text>
         </TouchableOpacity>
     );
 }

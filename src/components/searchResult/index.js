@@ -1,12 +1,25 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
-import { Image, Text, TouchableOpacity, View } from 'react-native';
+import { Image, Text, TouchableOpacity } from 'react-native';
+import api from '../../api/googleSearch';
 
 import style from './style';
 
 function Result (props) {
 
     const navigation = useNavigation();
+
+    async function loadAvatars(){
+      const response = await api.get();
+
+      const resItem = response.data.items[0];
+
+      const avatar = resItem.pagemap.cse_image.cse_image[0].src;
+
+      console.log(avatar);
+    }
+
+    loadAvatars();
 
     return (
         <TouchableOpacity style={style.btnItem}>

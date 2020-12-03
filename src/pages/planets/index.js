@@ -35,7 +35,7 @@ export default function Planets() {
       {planets.length == 0 ?
       <Loading itemName='Planets'/> :
       planets.map(planet => (
-      <Result key={planet.name} itemMap={planet.name}/>
+      <Result key={planet.name} itemNav='PlanetX' itemMap={planet.name}/>
       ))}
     </ScrollView>
   );

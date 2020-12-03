@@ -8,6 +8,9 @@ import Home from './pages/home';
 import Peoples from './pages/peoples';
 import Planets from './pages/planets';
 import Starships from './pages/starships';
+import PeopleX from './pages/peopleX';
+import PlanetX from './pages/planetX';
+import StarshipX from './pages/starshipX';
 
 export default function Routes() {
     return (
@@ -17,6 +20,9 @@ export default function Routes() {
                 <AppStack.Screen name="Peoples" component={Peoples} />
                 <AppStack.Screen name="Planets" component={Planets} />
                 <AppStack.Screen name="Starships" component={Starships} />
+                <AppStack.Screen name="PeopleX" component={PeopleX} />
+                <AppStack.Screen name="PlanetX" component={PlanetX} />
+                <AppStack.Screen name="StarshipX" component={StarshipX} />
             </AppStack.Navigator>
         </NavigationContainer>
     );

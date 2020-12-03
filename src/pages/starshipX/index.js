@@ -1,6 +1,9 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-export default function StarshipX(){
-    return <Text>Starship X</Text>
+export default function StarshipX(data){
+
+    const starship = data.route.params.data;
+
+    return <Text>{starship.name}</Text>
 }

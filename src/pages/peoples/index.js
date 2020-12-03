@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Text, Image } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
 import swApi from '../../api/swapi';
@@ -11,24 +10,33 @@ import style from './style';
 export default function Peoples() {
 
   const [peoples, setPeoples] = useState([]);
+  const [page, setPage] = useState(1);
+
+  async function loadPeoples() {
+    const resPeoples = await swApi.get(`people/?page=${page}`);
+    
+    setPeoples([...peoples, ...resPeoples.data.results]);
+
+    if(resPeoples.data.next){
+      setPage(page + 1)
+    }
+  }
 
   useEffect(() => {
-    async function loadPeoples() {
-      const resPeoples = await swApi.get('people');
-
-      setPeoples(resPeoples.data.results);
-    }
-
     loadPeoples();
-  }, [])
+  },[]);
+
+  useEffect(() => {
+    loadPeoples()
+  },[page]);
 
   return (
     <ScrollView style={style.viewBody}>
       {peoples.length == 0 ?
-      <Loading itemName='Peoples'/> :
-      peoples.map(people => (
-      <Result key={people.name} itemMap={people.name}/>
-      ))}
+        <Loading itemName='Peoples'/> :
+        peoples.map(people => (
+        <Result key={people.name} itemMap={people.name}/>
+        ))}
     </ScrollView>
   );
 }

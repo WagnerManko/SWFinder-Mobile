@@ -2,8 +2,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { Image, Text, TouchableOpacity } from 'react-native';
 
-import api from '../../api/imgapi/avatars.json';
-
+import imgapi from '../../api/imgapi/avatars.json';
 import style from './style';
 
 function Result (props) {
@@ -12,7 +11,7 @@ function Result (props) {
 
     return (
         <TouchableOpacity style={style.btnItem}>
-          <Image style={style.avatarItem} source={{ uri: api[props.itemMap]}}/>
+          <Image style={style.avatarItem} source={{ uri: imgapi[props.itemMap]}}/>
           <Text style={style.nameItem}>{props.itemMap}</Text>
         </TouchableOpacity>
     );

@@ -10,16 +10,25 @@ import style from './style';
 export default function Planets() {
 
   const [planets, setPlanets] = useState([]);
+  const [page, setPage] = useState(1);
+
+  async function loadPlanets() {
+    const resPlanets = await swApi.get(`planets/?page=${page}`);
+    
+    setPlanets([...planets, ...resPlanets.data.results]);
+
+    if(resPlanets.data.next){
+      setPage(page + 1)
+    }
+  }
 
   useEffect(() => {
-    async function loadPlanets() {
-      const resPlanets = await swApi.get('planets');
-
-      setPlanets(resPlanets.data.results);
-    }
-
     loadPlanets();
-  }, [])
+  },[]);
+
+  useEffect(() => {
+    loadPlanets()
+  },[page]);
 
   return (
     <ScrollView style={style.viewBody}>

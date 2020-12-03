@@ -7,19 +7,28 @@ import Loading from '../../components/loading';
 import Result from '../../components/searchResult';
 import style from './style';
 
-export default function Planets() {
+export default function Starships() {
 
   const [starships, setStarships] = useState([]);
+  const [page, setPage] = useState(1);
+
+  async function loadstarships() {
+    const resStarships = await swApi.get(`starships/?page=${page}`);
+    
+    setStarships([...starships, ...resStarships.data.results]);
+
+    if(resStarships.data.next){
+      setPage(page + 1)
+    }
+  }
 
   useEffect(() => {
-    async function loadStarships() {
-      const resStarships = await swApi.get('starships');
+    loadstarships();
+  },[]);
 
-      setStarships(resStarships.data.results);
-    }
-
-    loadStarships();
-  }, [])
+  useEffect(() => {
+    loadstarships()
+  },[page]);
 
   return (
     <ScrollView style={style.viewBody}>

@@ -17,7 +17,7 @@ const style = StyleSheet.create({
             paddingBottom: 20,
         },
             planetImg: {
-                minHeight: fullHeight / 4,
+                minHeight: fullHeight / 3,
                 minWidth: fullWidth -8,
                 borderWidth: 1,
                 borderColor: '#ffe300',

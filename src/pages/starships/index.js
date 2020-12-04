@@ -35,7 +35,7 @@ export default function Starships() {
       {starships.length == 0 ?
       <Loading itemName='Starships'/> :
       starships.map(starship => (
-      <Result key={starship.name} itemMap={starship.name}/>
+      <Result key={starship.name} itemData={starship} itemNav='StarshipX' itemMap={starship.name}/>
       ))}
     </ScrollView>
   );

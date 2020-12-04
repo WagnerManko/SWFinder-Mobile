@@ -10,7 +10,14 @@ function Result (props) {
     const navigation = useNavigation();
 
     return (
-        <TouchableOpacity style={style.btnItem}>
+        <TouchableOpacity
+          style={style.btnItem}
+          onPress={
+            () => navigation.navigate(`${props.itemNav}`, {
+              data: props.itemData,
+              avatar: imgapi[props.itemMap],
+          })}
+        >
           <Image style={style.avatarItem} source={{ uri: imgapi[props.itemMap]}}/>
           <Text style={style.nameItem}>{props.itemMap}</Text>
         </TouchableOpacity>

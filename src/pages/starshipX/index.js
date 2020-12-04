@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Image, Text, View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 

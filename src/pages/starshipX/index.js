@@ -18,7 +18,7 @@ export default function StarshipX(data){
             </View>
             <View style={style.viewDetails}>
                 <Text style={style.itemSubTitleDetails}>Marketplace</Text>
-                <Text style={style.itemText}>manufacturer: <Text style={style.itemData}>{starship.manufacturer}</Text></Text>
+                <Text style={style.itemText}>Manufacturer: <Text style={style.itemData}>{starship.manufacturer}</Text></Text>
                 <Text style={style.itemText}>Credits Cost: <Text style={style.itemData}>{starship.cost_in_credits}</Text></Text>
             </View>
             <View style={style.viewDetails}>

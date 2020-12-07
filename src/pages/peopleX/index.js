@@ -17,12 +17,12 @@ export default function PeopleX(data){
             </View>
             <View style={style.viewDetails}>
                 <Text style={style.itemSubTitleDetails}>Information</Text>
-                <Text style={style.itemText}>Height: <Text style={style.itemData}>{people.height}</Text></Text>
-                <Text style={style.itemText}>Mass: <Text style={style.itemData}>{people.mass}</Text></Text>
+                <Text style={style.itemText}>Height: <Text style={style.itemData}>{people.height / 100} m</Text></Text>
+                <Text style={style.itemText}>Mass: <Text style={style.itemData}>{people.mass} kg</Text></Text>
                 <Text style={style.itemText}>Hair Color: <Text style={style.itemData}>{people.hair_color}</Text></Text>
                 <Text style={style.itemText}>Skin Color: <Text style={style.itemData}>{people.skin_color}</Text></Text>
                 <Text style={style.itemText}>Eye Color: <Text style={style.itemData}>{people.eye_color}</Text></Text>
-                <Text style={style.itemText}>Birth Year: <Text style={style.itemData}>{people.birth_yea}</Text></Text>
+                <Text style={style.itemText}>Birth Year: <Text style={style.itemData}>{people.birth_year}</Text></Text>
                 <Text style={style.itemText}>Gender: <Text style={style.itemData}>{people.gender}</Text></Text>
             </View>        
         </ScrollView>

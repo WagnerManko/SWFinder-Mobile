@@ -10,15 +10,16 @@ const style = StyleSheet.create({
     },
 
         bb8Head: {
-            height: 66,
-            width: 66,
-            top: 18,
+            height: 112,
+            width: 112,
+            top: 82,
+            right: 2,
             zIndex: 2,
         },
 
         bb8Body: {
-            height: 80,
-            width: 80,
+            height: 78,
+            width: 78,
         },
 
         textLoading: {

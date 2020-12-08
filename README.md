@@ -34,7 +34,7 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 <h2> :iphone: Telas do Aplicativo </h2>
 <p>O aplicativo possui inicialmente quatro telas básicas que possibilitam a navegação do usuário.<br>
 <b>Consecutivamente:</b> tela Principal, tela de seleção de Personagens, tela de seleção de Planetas e tela de seleção de Naves Estelares.</p>
-<img width="220" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/home_app.png" /> <img width="220" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/peoples_app.png" /> <img width="220" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/planets_app.png" /> <img width="220" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/starships_app.png" />
+<img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/home_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/peoples_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/planets_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/starships_app.png" />
 </div>
 
 <hr>

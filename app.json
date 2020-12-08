@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mko.swfinder",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.mko.swfinder",
+        "versionCode": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1c1e22"
       }

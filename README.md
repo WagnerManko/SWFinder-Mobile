@@ -2,9 +2,16 @@
   <img src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/header_readme.png" />
   <a href="#Header"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
   <a href="#Header"><img src="https://img.shields.io/badge/Version-1.0-blue"/></a>
+  <a href="https://github.com/Juriy/swapi"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
+  <a href="https://github.com/Juriy/swapi"><img src="https://img.shields.io/badge/Expo-Github-blueviolet"/></a>
 </div>
 
 <hr>
+
+<div id="Importante">
+  <h2> :exclamation: Antes de Explorar </h2>
+  <p>O dados desta aplicação são fornecidos pela <a href="https://swapi.dev/"><b>SWApi</b></a>. Se você quer pôr em prática os seus conhecimentos como desenvolvedor e precisa de uma api <b>gratuita</b>, essa é uma ótima opção para quem gosta do universo de Star Wars.</p>
+</div>
 
 <div id="Indice">
   <h2> :mag: Índice </h2>

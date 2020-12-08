@@ -41,18 +41,25 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 
 <div id="Instalacao">
   <h2> :cd: Instalação Local do Projeto </h2>
+  <p>O projeto foi criado utilizando o <a href="https://expo.io/">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>
+  
+  <p>Após a instalação anterior, você deve executar o comando 'expo install' no terminal, lembrando, dentro da pasta do seu projeto! Quando concluir, apenas execute 'expo start'. Em alguns segundo será exibido um QR Code para emular a aplicação!</p>
 </div>
 
 <hr>
 
 <div id="Problemas">
   <h2> :space_invader: Problemas Conhecidos </h2>
+  <p><b>Imagens:</b> As imagens estão em diretórios online de terceiros, sendo assim não possuo gerenciamento delas. Se uma URL de image sair do ar, o processo de substituição de apontamento deverá ser feito de forma manual, necessitando de revisões periódicas.</p>
+  
+  <p><b>Requisições na SWApi:</b> Atualmente o app efetua apenas requisições dentro das três categorias básicas exibidas na tela principal, com isso, todo o conteúdo de uma categoria é carregado de em uma única solicitação, gerando um tráfego de dados talvez desnecessário.</p>
 </div>
 
 <hr>
 
 <div id="Melhorias">
   <h2> :hammer: Melhorias </h2>
+  <p><b></b></p>
 </div>
 
 <hr>

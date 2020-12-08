@@ -59,7 +59,11 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 
 <div id="Melhorias">
   <h2> :hammer: Melhorias </h2>
-  <p><b></b></p>
+  <p><b>Imagens:</b> Integrar a Custom Search JSON API do Google para alimentar as imagens da aplicação.</p>
+  
+  <p><b>Requisições:</b> Alterar a forma de requisições para diminuir o fluxo de dados e ser mais específico.</p>
+  
+  <p><b>Informações:</b> Explorar mais informações da SWApi que não foram exploradas nesta versão.</p>
 </div>
 
 <hr>

@@ -70,4 +70,16 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 
 <div id="Finalizando">
   <h2> :dart: Finalizando </h2>
+  <p>Esse projeto foi pensado para ser simples e fácil, porém, com melhorias planejadas. Busquei um tema do qual eu gosto e uma api da qual já conhecia. Foi muito bom programar esta aplicação, tanto por prazer de criar um app como para adquirir e melhorar meus conhecimento em React Native, fiquei muito feliz com o primeiro resultado.</p>
+  
+  <p>Espero, de coração, que a aplicação agrade a todos, sei que isso é difícil, mas vale a pena ter esperança! :satisfied:<br>
+  Se você tem alguma sugestão, dica ou queira implementar algo neste projeto, <b>junte-se a força!</b></p>
+  
+  <p><i>Mentira, o lado negro é mais legal! :smiling_imp:</i></p>
+  <img src="https://media.tenor.com/images/1d77fb5558842fa500a41bf77d9b8606/tenor.gif" />
+  <br>
+  
+  <p>Obrigado a todos que baixaram este app! :metal:</p>
+  
+  <p><a href="https://www.linkedin.com/in/wagner-mengue-898892172/"><img src="https://img.shields.io/badge/Manko-LinkedIn-blue"/></a></p>
 </div>

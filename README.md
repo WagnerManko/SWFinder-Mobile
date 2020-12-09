@@ -1,9 +1,9 @@
 <div id="Header" align="center">
   <img src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/header_readme.png" />
-  <a href="#Header"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
+  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
   <a href="#Header"><img src="https://img.shields.io/badge/Version-1.0-blue"/></a>
-  <a href="https://github.com/Juriy/swapi"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
-  <a href="https://github.com/Juriy/swapi"><img src="https://img.shields.io/badge/Expo-Github-blueviolet"/></a>
+  <a href="https://github.com/Juriy/swapi" target="_blank"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
+  <a href="https://expo.io/" target="_blank"><img src="https://img.shields.io/badge/Expo-Github-blueviolet"/></a>
 </div>
 
 <hr>
@@ -11,7 +11,7 @@
 <div id="Importante">
   <h2> :exclamation: Antes de Explorar </h2>
   <p><b><i>Esse projeto é gratuito e sem visões lucrativas!</i></b></p>
-  <p>O dados desta aplicação são fornecidos pela <a href="https://swapi.dev/"><b>SWApi</b></a>. Se você quer pôr em prática os seus conhecimentos como desenvolvedor e precisa de uma api <b>gratuita</b>, essa é uma ótima opção para quem gosta do universo de Star Wars.</p>
+  <p>O dados desta aplicação são fornecidos pela <a href="https://swapi.dev/" target="_blank"><b>SWApi</b></a>. Se você quer pôr em prática os seus conhecimentos como desenvolvedor e precisa de uma api <b>gratuita</b>, essa é uma ótima opção para quem gosta do universo de Star Wars.</p>
 </div>
 
 <div id="Indice">
@@ -49,7 +49,7 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 
 <div id="Instalacao">
   <h2> :cd: Instalação Local do Projeto </h2>
-  <p>O projeto foi criado utilizando o <a href="https://expo.io/">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>
+  <p>O projeto foi criado utilizando o <a href="https://expo.io/" target="_blank">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/" target="_blank">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>
   
   <p>Após a instalação anterior, você deve executar o comando 'expo install' no terminal, lembrando, dentro da pasta do seu projeto! Quando concluir, apenas execute 'expo start'. Em alguns segundo será exibido um QR Code para emular a aplicação!</p>
 </div>
@@ -89,5 +89,5 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
   
   <p>Obrigado a todos que baixaram este app! :metal:</p>
   
-  <p><a href="https://www.linkedin.com/in/wagner-mengue-898892172/"><img src="https://img.shields.io/badge/Manko-LinkedIn-blue"/></a></p>
+  <p><a href="https://www.linkedin.com/in/wagner-mengue-898892172/" target="_blank"><img src="https://img.shields.io/badge/Manko-LinkedIn-blue"/></a></p>
 </div>

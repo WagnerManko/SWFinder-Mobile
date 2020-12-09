@@ -10,6 +10,7 @@
 
 <div id="Importante">
   <h2> :exclamation: Antes de Explorar </h2>
+  <p><b><i>Esse projeto é gratuito e sem visões lucrativas!</i></b></p>
   <p>O dados desta aplicação são fornecidos pela <a href="https://swapi.dev/"><b>SWApi</b></a>. Se você quer pôr em prática os seus conhecimentos como desenvolvedor e precisa de uma api <b>gratuita</b>, essa é uma ótima opção para quem gosta do universo de Star Wars.</p>
 </div>
 

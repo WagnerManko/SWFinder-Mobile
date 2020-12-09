@@ -83,7 +83,7 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
   <p>Espero, de coração, que a aplicação agrade a todos, sei que isso é difícil, mas vale a pena ter esperança! :satisfied:<br>
   Se você tem alguma sugestão, dica ou queira implementar algo neste projeto, <b>junte-se a força!</b></p>
   
-  <p><i>Mentira, o lado negro é mais legal! :smiling_imp:</i></p>
+  <p><b><i>Mentira, o lado negro é mais legal! :smiling_imp:</i></b></p>
   <img src="https://media.tenor.com/images/1d77fb5558842fa500a41bf77d9b8606/tenor.gif" />
   <br>
   

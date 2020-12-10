@@ -1,6 +1,6 @@
 <div id="Header" align="center">
   <img src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/header_readme.png" />
-  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
+  <a href="https://play.google.com/store/apps/details?id=com.mko.swfinder" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
   <a href="#Header"><img src="https://img.shields.io/badge/Version-1.0-blue"/></a>
   <a href="https://github.com/Juriy/swapi" target="_blank"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
   <a href="https://expo.io/" target="_blank"><img src="https://img.shields.io/badge/Expo-Github-blueviolet"/></a>

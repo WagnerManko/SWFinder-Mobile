@@ -12,6 +12,7 @@
 <div id="Importante">
   <h2> :exclamation: Antes de Explorar </h2>
   <p><b><i>Esse projeto é gratuito e sem visões lucrativas!</i></b></p>
+  <p>Não esqueça de responder o <a href="https://docs.google.com/forms/d/e/1FAIpQLSfs-OlSvE5LFROktmYRD-XO_slizSAlFuCiU0i4tLxwZ3fuUg/viewform" target="_blank"><b>Formulário de Feedback</b></a>, por favor. :smile:</p>
   <p>O dados desta aplicação são fornecidos pela <a href="https://swapi.dev/" target="_blank"><b>SWApi</b></a>. Se você quer pôr em prática os seus conhecimentos como desenvolvedor e precisa de uma api <b>gratuita</b>, essa é uma ótima opção para quem gosta do universo de Star Wars.</p>
 </div>
 
@@ -20,7 +21,7 @@
 
    :speech_balloon: <a href="#Sobre"><b>Sobre o Aplicativo</b></a><br>
    :speech_balloon: <a href="#Telas"><b>Telas do Aplicativo</b></a><br>
-   :speech_balloon: <a href="#Instalacao"><b>Instalação Local do Projeto</b></a><br>
+   :speech_balloon: <a href="#Instalacao"><b>Instalação</b></a><br>
    :speech_balloon: <a href="#Problemas"><b>Problemas Conhecidos</b></a><br>
    :speech_balloon: <a href="#Melhorias"><b>Melhorias</b></a><br>
    :speech_balloon: <a href="#Finalizando"><b>Finalizando</b></a><br>
@@ -49,8 +50,12 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 <hr>
 
 <div id="Instalacao">
-  <h2> :cd: Instalação Local do Projeto </h2>
-  <p>O projeto foi criado utilizando o <a href="https://expo.io/" target="_blank">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/" target="_blank">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>
+  <h2> :cd: Instalação</h2>
+  
+  <p>Para instalar no seu celular <a href="https://drive.google.com/file/d/1QABkL4ZpCkOqHNQzJpOEO_OvaU8-ISXA/view" target="_black" ><b>baixe aqui</b></a>, não se preocupe com os avisos do sistema,<br>por não estar na Play Store ele identifica como algum programa malicíoso.</p>
+  
+  <p><b>Para instalação local com fins de programação:</b><br>
+  O projeto foi criado utilizando o <a href="https://expo.io/" target="_blank">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/" target="_blank">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>
   
   <p>Após a instalação anterior, você deve executar o comando 'expo install' no terminal, lembrando, dentro da pasta do seu projeto! Quando concluir, apenas execute 'expo start'. Em alguns segundo será exibido um QR Code para emular a aplicação!</p>
 </div>

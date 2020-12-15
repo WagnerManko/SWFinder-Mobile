@@ -22,7 +22,7 @@ export default function Home() {
         </View>
         
         <View style={style.viewCategories}>
-            <Categories categoryName='Peoples' />
+            <Categories categoryName='People' />
             <Categories categoryName='Planets' />
             <Categories categoryName='Starships' />
         </View>

@@ -2,7 +2,7 @@
   <img src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/header_readme.png" />
   <a href="https://drive.google.com/file/d/1QABkL4ZpCkOqHNQzJpOEO_OvaU8-ISXA/view?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
   <a href="#Header"><img src="https://img.shields.io/badge/Version-1.0-lightgrey"/></a>
-  <a href="https://forms.gle/QSAJBYHVknGqY2jH9"><img src="https://img.shields.io/badge/Feedbaack-G.Forms-blue"/></a>
+  <a href="https://forms.gle/QSAJBYHVknGqY2jH9"><img src="https://img.shields.io/badge/Feedback-G.Forms-blue"/></a>
   <a href="https://github.com/Juriy/swapi" target="_blank"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
   <a href="https://expo.io/" target="_blank"><img src="https://img.shields.io/badge/Expo-Github-blueviolet"/></a>
 </div>

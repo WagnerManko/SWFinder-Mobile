@@ -35,7 +35,7 @@ export default function People() {
       {people.length == 0 ?
         <Loading itemName='People'/> :
         people.map(people => (
-        <Result key={people.name} itemData={people} itemNav='PersonX' itemMap={people.name}/>
+        <Result key={people.name} itemData={people} itemNav='Person' itemMap={people.name}/>
         ))}
     </ScrollView>
   );

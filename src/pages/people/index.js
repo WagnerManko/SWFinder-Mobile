@@ -7,35 +7,35 @@ import Loading from '../../components/loading';
 import Result from '../../components/searchResult';
 import style from './style';
 
-export default function Peoples() {
+export default function People() {
 
-  const [peoples, setPeoples] = useState([]);
+  const [people, setPeople] = useState([]);
   const [page, setPage] = useState(1);
 
-  async function loadPeoples() {
-    const resPeoples = await swApi.get(`people/?page=${page}`);
+  async function loadPeople() {
+    const resPeople = await swApi.get(`people/?page=${page}`);
     
-    setPeoples([...peoples, ...resPeoples.data.results]);
+    setPeople([...people, ...resPeople.data.results]);
 
-    if(resPeoples.data.next){
+    if(resPeople.data.next){
       setPage(page + 1)
     }
   }
 
   useEffect(() => {
-    loadPeoples();
+    loadPeople();
   },[]);
 
   useEffect(() => {
-    loadPeoples()
+    loadPeople()
   },[page]);
 
   return (
     <ScrollView style={style.viewBody}>
-      {peoples.length == 0 ?
-        <Loading itemName='Peoples'/> :
-        peoples.map(people => (
-        <Result key={people.name} itemData={people} itemNav='PeopleX' itemMap={people.name}/>
+      {people.length == 0 ?
+        <Loading itemName='People'/> :
+        people.map(people => (
+        <Result key={people.name} itemData={people} itemNav='PersonX' itemMap={people.name}/>
         ))}
     </ScrollView>
   );

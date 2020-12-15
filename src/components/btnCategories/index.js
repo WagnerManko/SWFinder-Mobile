@@ -14,7 +14,7 @@ function Categories (props) {
 
     let icon = '';
 
-    if (props.categoryName == 'Peoples') {
+    if (props.categoryName == 'People') {
         icon = peopleIcon;
     }
 

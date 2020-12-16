@@ -1,6 +1,6 @@
 <div id="Header" align="center">
   <img src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/header_readme.png" />
-  <a href="https://drive.google.com/drive/folders/10v2tNYfWOyhzcRJWwEa1NW5FwMNxusuE?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
+  <a href="https://drive.google.com/file/d/1bZCMPNcjx3WuCVMICoLBu1VfrDsttU7d/view?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Download-Android-brightgreen"/></a>
   <a href="#Header"><img src="https://img.shields.io/badge/Version-1.0-lightgrey"/></a>
   <a href="https://forms.gle/QSAJBYHVknGqY2jH9"><img src="https://img.shields.io/badge/Feedback-G.Forms-blue"/></a>
   <a href="https://github.com/Juriy/swapi" target="_blank"><img src="https://img.shields.io/badge/SWApi-Github-yellow"/></a>
@@ -44,7 +44,7 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 <h2> :iphone: Telas do Aplicativo </h2>
 <p>O aplicativo possui inicialmente quatro telas básicas que possibilitam a navegação do usuário.<br>
 <b>Consecutivamente:</b> tela Principal, tela de seleção de Personagens, tela de seleção de Planetas e tela de seleção de Naves Estelares.</p>
-<img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/home_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/peoples_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/planets_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/starships_app.png" />
+<img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/home_app.jpeg" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/people_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/planets_app.png" /> <img width="200" src="https://github.com/WagnerManko/readme_files/blob/master/swfinder/starships_app.png" />
 </div>
 
 <hr>
@@ -52,7 +52,7 @@ Após selecionar umas delas, será exibida uma lista, onde será possível escol
 <div id="Instalacao">
   <h2> :cd: Instalação</h2>
   
-  <p>Para instalar no seu celular <a href="https://drive.google.com/drive/folders/10v2tNYfWOyhzcRJWwEa1NW5FwMNxusuE?usp=sharing" target="_black" ><b>baixe aqui</b></a>, não se preocupe com os avisos do sistema,<br>por não estar na Play Store ele identifica como algum programa malicioso.</p>
+  <p>Para instalar no seu celular <a href="https://drive.google.com/file/d/1bZCMPNcjx3WuCVMICoLBu1VfrDsttU7d/view?usp=sharing" target="_black" ><b>baixe aqui</b></a>, não se preocupe com os avisos do sistema,<br>por não estar na Play Store ele identifica como algum programa malicioso.</p>
   
   <p><b>Para instalação local com fins de programação:</b><br>
   O projeto foi criado utilizando o <a href="https://expo.io/" target="_blank">Expo</a>, então sugiro a utilização do mesmo para execução local. Você pode seguir o <a href="https://docs.expo.io/" target="_blank">guia de instalação</a> no site, assim como <a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank">baixar app do expo</a> para utilizar seu celular como um emulador de forma prática e rápida. Recomendo!</p>

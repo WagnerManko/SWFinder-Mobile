@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppLoading } from 'expo';
+import AppLoading from 'expo-app-loading';
 import { StatusBar } from 'react-native';
 import { View } from 'react-native';
 import {

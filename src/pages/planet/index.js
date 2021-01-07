@@ -4,7 +4,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import style from './style';
 
-export default function PlanetX(data){
+export default function Planet(data){
 
     const avatar = data.route.params.avatar;
     const planet = data.route.params.data;

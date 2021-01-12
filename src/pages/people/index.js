@@ -7,7 +7,7 @@ import Loading from '../../components/loading';
 import Result from '../../components/searchResult';
 import style from './style';
 
-export default function People() {
+export default function mountPeoplePage() {
 
   const [people, setPeople] = useState([]);
   const [page, setPage] = useState(1);

@@ -7,7 +7,7 @@ import Loading from '../../components/loading';
 import Result from '../../components/searchResult';
 import style from './style';
 
-export default function Planets() {
+export default function mountPlanetsPage() {
 
   const [planets, setPlanets] = useState([]);
   const [page, setPage] = useState(1);

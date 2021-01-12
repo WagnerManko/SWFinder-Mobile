@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { Linking, Text, View } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
@@ -11,7 +11,7 @@ export default function Home() {
 
   const url = 'https://github.com/WagnerManko/SWFinder-Mobile';
 
-  async function handlePress() {
+  async function navigateToGithub() {
     await Linking.canOpenURL(url).then(Linking.openURL(url));
   };
 
@@ -28,7 +28,7 @@ export default function Home() {
         </View>
 
         <View style={style.viewGitHub}>
-            <TouchableOpacity style={style.githubBtn} onPress={handlePress}>
+            <TouchableOpacity style={style.githubBtn} onPress={navigateToGithub}>
               <Icon style={style.github} name='github' />
             </TouchableOpacity>
         </View>

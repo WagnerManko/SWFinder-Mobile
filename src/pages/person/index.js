@@ -4,7 +4,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import style from './style';
 
-export default function Person(data){
+export default function mountPersonPageDetail(data){
 
     const avatar = data.route.params.avatar;
     const people = data.route.params.data;

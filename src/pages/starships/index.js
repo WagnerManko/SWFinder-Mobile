@@ -7,12 +7,12 @@ import Loading from '../../components/loading';
 import Result from '../../components/searchResult';
 import style from './style';
 
-export default function Starships() {
+export default function mountStarshipsPage() {
 
   const [starships, setStarships] = useState([]);
   const [page, setPage] = useState(1);
 
-  async function loadstarships() {
+  async function loadStarships() {
     const resStarships = await swApi.get(`starships/?page=${page}`);
     
     setStarships([...starships, ...resStarships.data.results]);
@@ -23,11 +23,11 @@ export default function Starships() {
   }
 
   useEffect(() => {
-    loadstarships();
+    loadStarships();
   },[]);
 
   useEffect(() => {
-    loadstarships()
+    loadStarships()
   },[page]);
 
   return (

@@ -4,7 +4,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import style from './style';
 
-export default function Starship(data){
+export default function mountStarshipPageDetail(data){
 
     const avatar = data.route.params.avatar;
     const starship = data.route.params.data;

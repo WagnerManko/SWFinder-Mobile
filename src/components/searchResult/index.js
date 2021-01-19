@@ -5,7 +5,7 @@ import { Image, Text, TouchableOpacity } from 'react-native';
 import imgapi from '../../api/imgapi/avatars.json';
 import style from './style';
 
-function Result (props) {
+function ShowResults (props) {
 
     const navigation = useNavigation();
 
@@ -24,7 +24,7 @@ function Result (props) {
     );
 }
 
-export default Result;
+export default ShowResults;
 
 
 

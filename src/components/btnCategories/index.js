@@ -8,7 +8,7 @@ import starshipIcon from '../../assets/img/starship.png';
 
 import style from './style';
 
-function Categories (props) {
+function ShowCategories (props) {
 
     const navigation = useNavigation();
 
@@ -36,4 +36,4 @@ function Categories (props) {
     );
 }
 
-export default Categories;
+export default ShowCategories;

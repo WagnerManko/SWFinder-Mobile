@@ -3,8 +3,8 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import swApi from '../../api/swapi';
 
-import Loading from '../../components/loading';
-import Result from '../../components/searchResult';
+import ShowLoading from '../../components/loading';
+import ShowResults from '../../components/searchResult';
 import style from './style';
 
 export default function mountPlanetsPage() {
@@ -33,9 +33,9 @@ export default function mountPlanetsPage() {
   return (
     <ScrollView style={style.viewBody}>
       {planets.length == 0 ?
-      <Loading itemName='Planets'/> :
+      <ShowLoading itemName='Planets'/> :
       planets.map(planet => (
-      <Result key={planet.name} itemData={planet} itemNav='Planet' itemMap={planet.name}/>
+      <ShowResults key={planet.name} itemData={planet} itemNav='Planet' itemMap={planet.name}/>
       ))}
     </ScrollView>
   );

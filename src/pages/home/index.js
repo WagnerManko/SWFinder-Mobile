@@ -3,7 +3,7 @@ import { Linking, Text, View } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 import { Feather as Icon } from '@expo/vector-icons';
-import Categories from '../../components/btnCategories';
+import ShowCategories from '../../components/btnCategories';
 
 import style from './style';
 
@@ -22,9 +22,9 @@ export default function Home() {
         </View>
         
         <View style={style.viewCategories}>
-            <Categories categoryName='People' />
-            <Categories categoryName='Planets' />
-            <Categories categoryName='Starships' />
+            <ShowCategories categoryName='People' />
+            <ShowCategories categoryName='Planets' />
+            <ShowCategories categoryName='Starships' />
         </View>
 
         <View style={style.viewGitHub}>

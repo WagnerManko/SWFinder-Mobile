@@ -6,7 +6,7 @@ import bb8Body from '../../assets/img/bb8Body.png'
 
 import style from './style';
 
-function Loading (props) {
+function ShowLoading (props) {
 
     let rotateValueHolder = new Animated.Value(0);
 
@@ -36,4 +36,4 @@ function Loading (props) {
     );
 }
 
-export default Loading;
+export default ShowLoading;

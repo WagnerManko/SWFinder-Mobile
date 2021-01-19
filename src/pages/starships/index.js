@@ -3,8 +3,8 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import swApi from '../../api/swapi';
 
-import Loading from '../../components/loading';
-import Result from '../../components/searchResult';
+import ShowLoading from '../../components/loading';
+import ShowResults from '../../components/searchResult';
 import style from './style';
 
 export default function mountStarshipsPage() {
@@ -33,9 +33,9 @@ export default function mountStarshipsPage() {
   return (
     <ScrollView style={style.viewBody}>
       {starships.length == 0 ?
-      <Loading itemName='Starships'/> :
+      <ShowLoading itemName='Starships'/> :
       starships.map(starship => (
-      <Result key={starship.name} itemData={starship} itemNav='Starship' itemMap={starship.name}/>
+      <ShowResults key={starship.name} itemData={starship} itemNav='Starship' itemMap={starship.name}/>
       ))}
     </ScrollView>
   );

@@ -3,8 +3,8 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import swApi from '../../api/swapi';
 
-import Loading from '../../components/loading';
-import Result from '../../components/searchResult';
+import ShowLoading from '../../components/loading';
+import ShowResults from '../../components/searchResult';
 import style from './style';
 
 export default function mountPeoplePage() {
@@ -33,9 +33,9 @@ export default function mountPeoplePage() {
   return (
     <ScrollView style={style.viewBody}>
       {people.length == 0 ?
-        <Loading itemName='People'/> :
+        <ShowLoading itemName='People'/> :
         people.map(people => (
-        <Result key={people.name} itemData={people} itemNav='Person' itemMap={people.name}/>
+        <ShowResults key={people.name} itemData={people} itemNav='Person' itemMap={people.name}/>
         ))}
     </ScrollView>
   );
